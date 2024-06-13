@@ -1,0 +1,35 @@
+/* Turn.css */
+
+.turn-details {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .turn-details h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .turn-details p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  .turn-details p strong {
+    color: #000;
+  }
+  
+  .loading, .error, .no-turn {
+    text-align: center;
+    color: #999;
+    font-size: 18px;
+    margin-top: 50px;
+  }
+  

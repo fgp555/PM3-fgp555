@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.navbar img {
+  width: 50px;
+}
+
+.linksSection {
+  display: flex;
+}
+
+.linksSection a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.avatarSection {
+  display: flex;
+}
+
+.avatarSection img {
+  width: 40px;
+  border-radius: 50%;
+  margin-left: 10px;
+}

@@ -1,0 +1,84 @@
+
+### rest-client
+### ========== users ==========
+###
+GET  https://1rodemayo.com/users/
+token: autenticado
+
+###
+GET  https://1rodemayo.com/users/1
+token: autenticado
+
+###
+POST https://1rodemayo.com/users/register/
+Content-Type: application/json
+token: autenticado
+
+{
+    "name": "Jhon Name",
+    "email": "john@example.com",
+    "birthdate": "2024-05-04",
+    "nDni": 12345678,
+    "username": "user123",
+    "password": "P4ss123"
+}
+
+###
+POST https://1rodemayo.com/users/login
+Content-Type: application/json
+token: autenticado
+
+{
+    "username": "user123",
+    "password": "P4ss123"
+}
+
+###
+DELETE  https://1rodemayo.com/users/delete/1
+Content-Type: application/json
+token: autenticado
+
+
+### ========== turns ==========
+###
+GET  https://1rodemayo.com/turns/
+token: autenticado
+
+###
+GET  https://1rodemayo.com/turns/1
+token: autenticado
+
+###
+POST https://1rodemayo.com/turns/schedule/
+Content-Type: application/json
+token: autenticado
+
+{
+    "date": "2024-05-05",
+    "time": "11:00 PM",
+    "description": "description 1",
+    "userId": 1
+}
+
+###
+PUT https://1rodemayo.com/turns/cancel/1
+Content-Type: application/json
+token: autenticado
+
+###
+DELETE  https://1rodemayo.com/turns/delete/1
+token: autenticado
+
+
+
+### ========== temporal ==========
+### ========== temporal ==========
+### ========== temporal ==========
+PATCH  https://1rodemayo.com/users/credentials
+Content-Type: application/json
+token: autenticado
+
+### ========== dropSchema ==========
+PATCH  https://1rodemayo.com/users/dropSchema
+Content-Type: application/json
+token: autenticado
